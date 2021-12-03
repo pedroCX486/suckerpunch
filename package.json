@@ -1,0 +1,24 @@
+{
+  "name": "suckerpunch",
+  "version": "0.6.0",
+  "description": "Automatização de registro de ponto no PontoMais",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pedrocx486/suckerpunch.git"
+  },
+  "main": "SuckerPunch.js",
+  "scripts": {
+    "preinstall": "cmd /c if not exist \"logs\" mkdir logs && cmd /c if not exist \"build\" mkdir build",
+    "start": "tsc --project ./ && node ./build/SuckerPunch.js"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "systray": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
