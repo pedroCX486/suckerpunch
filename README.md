@@ -22,9 +22,9 @@ Um automatizador de bater ponto no bugmais. Seja feliz e mande a interface web d
 
 - Caso queira logs de execução salvos em arquivo (mesmo não usando o autostart), inicie o projeto a partir do `autostart/suckerpunch.bat`. Os logs de execução ficam salvos na pasta de `logs` do projeto.
 
-#### Nota 1: Caso não queira a janela do console, procure algo como o PS2EXE (e aprenda a fazer seu uso com cuidado), este não foi parte do escopo do projeto então não demos a opção.
+#### Nota 1: Caso não queira a janela do console, foi adicionado o `suckerpunch-svc.exe` na pasta `autostart`. Esse serviço foi criado com o PS2EXE (e pode criar falso positivo em alguns antimalware) e não exibe o console. De brinde, exibe um ícone na bandeja caso queira encerrar o app pra ele não bater mais pontos até ser reaberto.
   
-#### Nota 2: Caso queira que o script rode automático todo os dias, use o autostart pra quando você ligar o computador ou utilize algum script externo. Isso também não foi parte do escopo do projeto e por isso não implementamos algo completo.
+#### Nota 2: Caso queira que o script rode automático todo os dias, use o autostart pra quando você ligar o computador ou utilize algum script externo. Isso também não foi parte do escopo do projeto e por isso não implementamos algo completo. Veja a pasta `autostart` pra mais instruções.
   
 #### Nota 3: Eu acho que não preciso dizer que esse projeto não coleta dados. Basta ler o código (e não ser analfabeto de javascript básico) pra ver isso.
   
