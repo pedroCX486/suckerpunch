@@ -10,7 +10,7 @@
   "scripts": {
     "preinstall": "cmd /c if not exist \"logs\" mkdir logs && cmd /c if not exist \"build\" mkdir build && npm run build",
     "start": "cmd /c if not exist \"build\" @echo Please run npm install! && node ./build/SuckerPunch.js",
-    "build": "tsc --project ./"
+    "build": "npx tsc --project ./"
   },
   "author": "",
   "license": "WTFPL",
