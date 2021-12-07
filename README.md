@@ -4,9 +4,7 @@ Um automatizador de bater ponto no bugmais. Seja feliz e mande a interface web d
 
 ### Como usar:
 
-- Coloque a pasta `suckerpunch` na sua pasta de usuário (Aperte Win+R e digite `%userprofile%`).
-
-- Use o comando `npm install` para preparar seu ambiente.
+- Coloque a pasta `suckerpunch` na sua pasta de usuário (Aperte Win+R e digite `%userprofile%`) mas **não rode o `npm install` agora**.
   
 - Coloque seu login e senha do pontomais no `users` JSON a na linha 11.
 
@@ -15,6 +13,8 @@ Um automatizador de bater ponto no bugmais. Seja feliz e mande a interface web d
 - Coloque seu endereço, latitude e longitude (pode pegar do Google Maps) no `location_data` JSON na linha 13.
 
 - Coloque se deve permitir registros em fins de semana ou não no prop `allowWeekends` do users JSON na linha 24.
+
+- Use o comando `npm install` para preparar seu ambiente e transpilar o app.
   
 - Utilize `npm start` para inicializar o suckerpunch.
 
