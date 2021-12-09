@@ -29,6 +29,8 @@ Um automatizador de bater ponto no bugmais. Seja feliz e mande a interface web d
 #### Nota 3: Eu acho que não preciso dizer que esse projeto não coleta dados. Basta ler o código (e não ser analfabeto de javascript básico) pra ver isso.
   
 #### Nota 4: Sim o projeto sem querer querendo suporta multi-usuários.
+
+#### Nota 5: Sim sempre que alterar algum dado no arquivo `suckerpunch.ts` você precisa rodar o `npm run build` de novo.
   
 
 ### Requerimentos:
