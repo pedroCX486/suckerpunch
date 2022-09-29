@@ -41,4 +41,4 @@ Um automatizador de bater ponto no bugmais. Seja feliz e mande a interface web d
   
 ### LICENÇA DE USO:
 
-[WTFPL](http://www.wtfpl.net/)
+ISC
